@@ -28,7 +28,7 @@ while img:
    message2 = random.choice(column2)
    message3 = random.choice(column3)
 
-   img = Image.open("/home/pi/sp.png")
+   img = Image.open("/home/pi/shakespeare/sp.png")
    draw = ImageDraw.Draw(img)
 
    x=0
